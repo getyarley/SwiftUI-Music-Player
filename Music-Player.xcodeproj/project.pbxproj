@@ -14,11 +14,6 @@
 		559DFBBB24A5812900D3A42C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559DFBBA24A5812900D3A42C /* Assets.xcassets */; };
 		559DFBBE24A5812900D3A42C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559DFBBD24A5812900D3A42C /* Preview Assets.xcassets */; };
 		559DFBC124A5812900D3A42C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559DFBBF24A5812900D3A42C /* LaunchScreen.storyboard */; };
-		559DFBCE24A583E300D3A42C /* give-yourself-into-love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 559DFBC924A583E200D3A42C /* give-yourself-into-love.mp3 */; };
-		559DFBCF24A583E300D3A42C /* pet-sematary.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 559DFBCA24A583E200D3A42C /* pet-sematary.mp3 */; };
-		559DFBD024A583E300D3A42C /* the-selfish-bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 559DFBCB24A583E300D3A42C /* the-selfish-bell.mp3 */; };
-		559DFBD124A583E300D3A42C /* blood-sport.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 559DFBCC24A583E300D3A42C /* blood-sport.mp3 */; };
-		559DFBD224A583E300D3A42C /* corinthian-order.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 559DFBCD24A583E300D3A42C /* corinthian-order.mp3 */; };
 		559DFBD424A5848C00D3A42C /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559DFBD324A5848C00D3A42C /* MusicPlayer.swift */; };
 		55B781A024A767260049BE4F /* SongStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B7819F24A767260049BE4F /* SongStore.swift */; };
 		55B781A224A76C710049BE4F /* SongListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B781A124A76C710049BE4F /* SongListView.swift */; };
@@ -40,11 +35,6 @@
 		559DFBBD24A5812900D3A42C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		559DFBC024A5812900D3A42C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		559DFBC224A5812900D3A42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		559DFBC924A583E200D3A42C /* give-yourself-into-love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "give-yourself-into-love.mp3"; sourceTree = "<group>"; };
-		559DFBCA24A583E200D3A42C /* pet-sematary.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "pet-sematary.mp3"; sourceTree = "<group>"; };
-		559DFBCB24A583E300D3A42C /* the-selfish-bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "the-selfish-bell.mp3"; sourceTree = "<group>"; };
-		559DFBCC24A583E300D3A42C /* blood-sport.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "blood-sport.mp3"; sourceTree = "<group>"; };
-		559DFBCD24A583E300D3A42C /* corinthian-order.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "corinthian-order.mp3"; sourceTree = "<group>"; };
 		559DFBD324A5848C00D3A42C /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
 		55B7819F24A767260049BE4F /* SongStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongStore.swift; sourceTree = "<group>"; };
 		55B781A124A76C710049BE4F /* SongListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListView.swift; sourceTree = "<group>"; };
@@ -99,7 +89,6 @@
 				55B7819C24A766AD0049BE4F /* Views */,
 				55B7819D24A766C00049BE4F /* Models */,
 				5568700224A764D400EE0B24 /* Types */,
-				559DFBC824A583D100D3A42C /* Music */,
 				559DFBBA24A5812900D3A42C /* Assets.xcassets */,
 				559DFBBF24A5812900D3A42C /* LaunchScreen.storyboard */,
 				559DFBC224A5812900D3A42C /* Info.plist */,
@@ -114,18 +103,6 @@
 				559DFBBD24A5812900D3A42C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		559DFBC824A583D100D3A42C /* Music */ = {
-			isa = PBXGroup;
-			children = (
-				559DFBCC24A583E300D3A42C /* blood-sport.mp3 */,
-				559DFBCD24A583E300D3A42C /* corinthian-order.mp3 */,
-				559DFBC924A583E200D3A42C /* give-yourself-into-love.mp3 */,
-				559DFBCA24A583E200D3A42C /* pet-sematary.mp3 */,
-				559DFBCB24A583E300D3A42C /* the-selfish-bell.mp3 */,
-			);
-			path = Music;
 			sourceTree = "<group>";
 		};
 		55B7819C24A766AD0049BE4F /* Views */ = {
@@ -218,13 +195,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				559DFBCE24A583E300D3A42C /* give-yourself-into-love.mp3 in Resources */,
-				559DFBD124A583E300D3A42C /* blood-sport.mp3 in Resources */,
-				559DFBD224A583E300D3A42C /* corinthian-order.mp3 in Resources */,
 				559DFBC124A5812900D3A42C /* LaunchScreen.storyboard in Resources */,
-				559DFBD024A583E300D3A42C /* the-selfish-bell.mp3 in Resources */,
 				559DFBBE24A5812900D3A42C /* Preview Assets.xcassets in Resources */,
-				559DFBCF24A583E300D3A42C /* pet-sematary.mp3 in Resources */,
 				559DFBBB24A5812900D3A42C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
