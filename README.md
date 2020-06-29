@@ -3,6 +3,7 @@
 > SwiftUI App that uses AVAudioPlayer to play and favorite songs. There are two player views with a side bar to navigate between them. The user has the ability to select a new song, play, pause, go forward/backward 15 seconds, and restart.
 
 ### Preview
+![](https://github.com/getyarley/getyarley-images/blob/master/SwiftUI-Music-Player_ex.GIF?raw=true)
 
 
 Welcome to my SwiftUI Music Player! This is an app I built to practice SwiftUI, combine (reactive programming), and AVAudioPlayer. The user can select songs preloaded into this app (not very useful for a released app) and play them with some basic controls such as play, pause, skip forward/backward 15 seconds, and restart. The user can also favorite songs and the view automatically updates to reflect the change. 
