@@ -13,7 +13,26 @@ This can be used as a framework to build a more expansive media player app that 
 
 ## Setup
 
-_DISCLAIMER: This app is currently build to handle songs manually included with the project only and hard coded to the store. Much more work will need to be done to expand it more than that._
+Add desired songs into [Music-Player](https://github.com/getyarley/SwiftUI-Music-Player/tree/Music-Player/Music-Player) folder inside X-Code, make sure to use mp3 format. 
+
+If the songs are not mp3 format, update the initializer in the [Song](https://github.com/getyarley/SwiftUI-Music-Player/blob/Music-Player/Music-Player/Types/Song.swift) type to include the correct file extension:
+```sh
+    init(id: UUID, songName: String, favorite: Bool) {
+        ...
+        self.fileType = "mp3"
+    }
+```
+
+Update song names in [SongStore](https://github.com/getyarley/SwiftUI-Music-Player/blob/Music-Player/Music-Player/Models/SongStore.swift) initializer to match the titles of the songs (SONG-TITLE-HERE) added EXACTLY! If the song title's and/or filetype don't match, the music won't be loaded properly.
+```sh
+    init() {
+        allSongs.append(Song(id: UUID(), songName: "SONG-TITLE-HERE", favorite: false))
+        ...
+    }
+```
+
+
+_DISCLAIMER: This app is currently build to handle songs manually included with the project only and hard coded to the store. More work will need to be done to expand it more than that._
 
 
 
